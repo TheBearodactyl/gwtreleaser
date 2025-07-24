@@ -1,0 +1,38 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+# Go binaries are often named after the project, so ignore all executables
+# in the current directory unless they are explicitly tracked.
+/!(*.go)
+
+# Test binaries
+*_test
+
+# Dependency directories (Go Modules manages vendor, but some older projects might use it)
+# If you are explicitly using `go mod vendor`, you might want to remove this line.
+vendor/
+
+# Log files
+*.log
+
+# Editor/IDE specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+# If you have specific build output directories, add them here.
+build/
+dist/
+
+# Environment variables and secrets
+.env
+*.env
+
+# Project-specific files
+*.json
